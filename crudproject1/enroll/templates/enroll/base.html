@@ -1,0 +1,18 @@
+{% load static %}
+<html>
+    <head>
+        <title>function based crud api</title>
+        <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.css' %}">
+        <script src="{% static 'enroll/js/jquery.js' %}"></script>
+        <script src="{% static 'enroll/js/popper.js' %}"></script>
+        <script src="{% static 'enroll/js/bootstrap.js' %}"></script>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h2 class="text-center alert alert-danger">function based view modelform crud project</h2>
+            {% block content %}
+
+            {% endblock content %}
+        </div>
+    </body>
+</html>
